@@ -5,7 +5,7 @@
 
 ## Description
 
-I wrote an app for my Ham Radio operations to monitor a digital mode app to see if some new country showed up and then alert me. One of the optional alert modes is email. After I built the alerter application I noticed that all the email logon info was in plain text in the Properties Settings which left me vulnerable to hackers capturing my email credentials so I wrote this little encrypter/decrypter application to make it a lot harder to hack my email credentials. 
+I wrote an app for my Ham Radio operations to monitor a digital mode app to see if some new country showed up and then alert me. Otherwise I have to sit and stare at the screen for hours and hours. One of the optional alert modes is email. After I built the alerter application I noticed that all the email logon info was in plain text in the Properties Settings which left me vulnerable to hackers capturing my email credentials so I wrote this little encrypter/decrypter application to make it a lot harder to hack my email credentials. 
 
 It is a very simple application. You can enter text to encrypt and push the button and see the encrypted results which I would then paste into the alerter application Settings page.
 
@@ -26,6 +26,7 @@ Here's a copy:
   // legal sizes for AES IV = 128/block size(currently 8), so 16*8=128
   // legal sizes for key in TripleDES is 128-192, IV seems to be mulitples of 8
 ```
+that tells you what the legal size of the keys is.
 
 ## License
 
